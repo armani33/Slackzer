@@ -9,17 +9,17 @@
 /* Begin PBXBuildFile section */
 		1245A4AFBD2D28C3C99A6DC5 /* Pods_Slackzer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7945B073295A466269738CA3 /* Pods_Slackzer.framework */; };
 		48AFD9A722BA2D690080AFDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFD9A622BA2D690080AFDB /* AppDelegate.swift */; };
-		48AFD9A922BA2D690080AFDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFD9A822BA2D690080AFDB /* ViewController.swift */; };
 		48AFD9AC22BA2D690080AFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AFD9AA22BA2D690080AFDB /* Main.storyboard */; };
 		48AFD9AE22BA2D6A0080AFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AFD9AD22BA2D6A0080AFDB /* Assets.xcassets */; };
 		48AFD9B122BA2D6A0080AFDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AFD9AF22BA2D6A0080AFDB /* LaunchScreen.storyboard */; };
 		48AFD9BC22BA3BAF0080AFDB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AFD9BB22BA3BAF0080AFDB /* SWRevealViewController.m */; };
+		48AFD9C122BA44950080AFDB /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFD9C022BA44950080AFDB /* ChatVC.swift */; };
+		48AFD9C322BA44AA0080AFDB /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFD9C222BA44AA0080AFDB /* ChannelVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		48AFD9A322BA2D690080AFDB /* Slackzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slackzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AFD9A622BA2D690080AFDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		48AFD9A822BA2D690080AFDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		48AFD9AB22BA2D690080AFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48AFD9AD22BA2D6A0080AFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48AFD9B022BA2D6A0080AFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -27,6 +27,8 @@
 		48AFD9B922BA3BAE0080AFDB /* Slackzer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Slackzer-Bridging-Header.h"; sourceTree = "<group>"; };
 		48AFD9BA22BA3BAF0080AFDB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		48AFD9BB22BA3BAF0080AFDB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		48AFD9C022BA44950080AFDB /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		48AFD9C222BA44AA0080AFDB /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		7945B073295A466269738CA3 /* Pods_Slackzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slackzer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8595687BC12198570887C189 /* Pods-Slackzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slackzer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Slackzer/Pods-Slackzer.release.xcconfig"; sourceTree = "<group>"; };
 		CCC7476AA32F3F21F44C790E /* Pods-Slackzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slackzer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Slackzer/Pods-Slackzer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,9 +67,11 @@
 		48AFD9A522BA2D690080AFDB /* Slackzer */ = {
 			isa = PBXGroup;
 			children = (
+				48AFD9BF22BA446B0080AFDB /* Model */,
+				48AFD9BE22BA44650080AFDB /* View */,
+				48AFD9BD22BA444E0080AFDB /* Controller */,
 				48AFD9B822BA3B490080AFDB /* Supporting Files */,
 				48AFD9A622BA2D690080AFDB /* AppDelegate.swift */,
-				48AFD9A822BA2D690080AFDB /* ViewController.swift */,
 				48AFD9AA22BA2D690080AFDB /* Main.storyboard */,
 				48AFD9AD22BA2D6A0080AFDB /* Assets.xcassets */,
 				48AFD9AF22BA2D6A0080AFDB /* LaunchScreen.storyboard */,
@@ -84,6 +88,29 @@
 				48AFD9B922BA3BAE0080AFDB /* Slackzer-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48AFD9BD22BA444E0080AFDB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48AFD9C022BA44950080AFDB /* ChatVC.swift */,
+				48AFD9C222BA44AA0080AFDB /* ChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		48AFD9BE22BA44650080AFDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48AFD9BF22BA446B0080AFDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C0267C970D08A23607FF0F8C /* Pods */ = {
@@ -222,7 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48AFD9A922BA2D690080AFDB /* ViewController.swift in Sources */,
+				48AFD9C322BA44AA0080AFDB /* ChannelVC.swift in Sources */,
+				48AFD9C122BA44950080AFDB /* ChatVC.swift in Sources */,
 				48AFD9A722BA2D690080AFDB /* AppDelegate.swift in Sources */,
 				48AFD9BC22BA3BAF0080AFDB /* SWRevealViewController.m in Sources */,
 			);
