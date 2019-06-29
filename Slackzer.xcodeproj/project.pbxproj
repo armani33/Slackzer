@@ -21,6 +21,7 @@
 		48AFD9CC22C151F60080AFDB /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFD9CB22C151F60080AFDB /* CreateAccountVC.swift */; };
 		48B6131122C7533200CC5E45 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6131022C7533200CC5E45 /* AuthService.swift */; };
 		48B6131322C7654100CC5E45 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6131222C7654100CC5E45 /* RoundedButton.swift */; };
+		48B6131522C7891500CC5E45 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6131422C7891500CC5E45 /* UserDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		48AFD9CB22C151F60080AFDB /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		48B6131022C7533200CC5E45 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		48B6131222C7654100CC5E45 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		48B6131422C7891500CC5E45 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		7945B073295A466269738CA3 /* Pods_Slackzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slackzer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8595687BC12198570887C189 /* Pods-Slackzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slackzer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Slackzer/Pods-Slackzer.release.xcconfig"; sourceTree = "<group>"; };
 		CCC7476AA32F3F21F44C790E /* Pods-Slackzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slackzer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Slackzer/Pods-Slackzer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				48B6131022C7533200CC5E45 /* AuthService.swift */,
+				48B6131422C7891500CC5E45 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				48AFD9C322BA44AA0080AFDB /* ChannelVC.swift in Sources */,
 				48B6131322C7654100CC5E45 /* RoundedButton.swift in Sources */,
 				48AFD9C122BA44950080AFDB /* ChatVC.swift in Sources */,
+				48B6131522C7891500CC5E45 /* UserDataService.swift in Sources */,
 				48AFD9CC22C151F60080AFDB /* CreateAccountVC.swift in Sources */,
 				48B6131122C7533200CC5E45 /* AuthService.swift in Sources */,
 				48AFD9CA22C119EC0080AFDB /* LoginVC.swift in Sources */,
