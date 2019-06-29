@@ -19,6 +19,7 @@
 		48AFD9C822C114080080AFDB /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFD9C722C114080080AFDB /* constants.swift */; };
 		48AFD9CA22C119EC0080AFDB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFD9C922C119EC0080AFDB /* LoginVC.swift */; };
 		48AFD9CC22C151F60080AFDB /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AFD9CB22C151F60080AFDB /* CreateAccountVC.swift */; };
+		48B6131122C7533200CC5E45 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6131022C7533200CC5E45 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		48AFD9C722C114080080AFDB /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		48AFD9C922C119EC0080AFDB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		48AFD9CB22C151F60080AFDB /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		48B6131022C7533200CC5E45 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		7945B073295A466269738CA3 /* Pods_Slackzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slackzer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8595687BC12198570887C189 /* Pods-Slackzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slackzer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Slackzer/Pods-Slackzer.release.xcconfig"; sourceTree = "<group>"; };
 		CCC7476AA32F3F21F44C790E /* Pods-Slackzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slackzer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Slackzer/Pods-Slackzer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		48AFD9A522BA2D690080AFDB /* Slackzer */ = {
 			isa = PBXGroup;
 			children = (
+				48B6130F22C7530600CC5E45 /* Services */,
 				48AFD9C622C113E20080AFDB /* Utilities */,
 				48AFD9BF22BA446B0080AFDB /* Model */,
 				48AFD9BE22BA44650080AFDB /* View */,
@@ -131,6 +134,14 @@
 				48AFD9C722C114080080AFDB /* constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		48B6130F22C7530600CC5E45 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				48B6131022C7533200CC5E45 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		C0267C970D08A23607FF0F8C /* Pods */ = {
@@ -272,6 +283,7 @@
 				48AFD9C322BA44AA0080AFDB /* ChannelVC.swift in Sources */,
 				48AFD9C122BA44950080AFDB /* ChatVC.swift in Sources */,
 				48AFD9CC22C151F60080AFDB /* CreateAccountVC.swift in Sources */,
+				48B6131122C7533200CC5E45 /* AuthService.swift in Sources */,
 				48AFD9CA22C119EC0080AFDB /* LoginVC.swift in Sources */,
 				48AFD9C522C0F0D10080AFDB /* GradientView.swift in Sources */,
 				48AFD9A722BA2D690080AFDB /* AppDelegate.swift in Sources */,
