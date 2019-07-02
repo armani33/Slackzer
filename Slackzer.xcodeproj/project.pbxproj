@@ -24,6 +24,7 @@
 		48B6131522C7891500CC5E45 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6131422C7891500CC5E45 /* UserDataService.swift */; };
 		48B6131722C79E1E00CC5E45 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6131622C79E1E00CC5E45 /* AvatarPickerVC.swift */; };
 		48B6131922C7A25800CC5E45 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6131822C7A25800CC5E45 /* AvatarCell.swift */; };
+		48B6131B22CA370700CC5E45 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6131A22CA370700CC5E45 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		48B6131422C7891500CC5E45 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		48B6131622C79E1E00CC5E45 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		48B6131822C7A25800CC5E45 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		48B6131A22CA370700CC5E45 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		7945B073295A466269738CA3 /* Pods_Slackzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slackzer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8595687BC12198570887C189 /* Pods-Slackzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slackzer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Slackzer/Pods-Slackzer.release.xcconfig"; sourceTree = "<group>"; };
 		CCC7476AA32F3F21F44C790E /* Pods-Slackzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slackzer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Slackzer/Pods-Slackzer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				48AFD9C422C0F0D10080AFDB /* GradientView.swift */,
 				48B6131222C7654100CC5E45 /* RoundedButton.swift */,
 				48B6131822C7A25800CC5E45 /* AvatarCell.swift */,
+				48B6131A22CA370700CC5E45 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				48AFD9C322BA44AA0080AFDB /* ChannelVC.swift in Sources */,
 				48B6131722C79E1E00CC5E45 /* AvatarPickerVC.swift in Sources */,
 				48B6131322C7654100CC5E45 /* RoundedButton.swift in Sources */,
+				48B6131B22CA370700CC5E45 /* CircleImage.swift in Sources */,
 				48AFD9C122BA44950080AFDB /* ChatVC.swift in Sources */,
 				48B6131522C7891500CC5E45 /* UserDataService.swift in Sources */,
 				48AFD9CC22C151F60080AFDB /* CreateAccountVC.swift in Sources */,
