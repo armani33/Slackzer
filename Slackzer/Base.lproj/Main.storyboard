@@ -171,6 +171,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="T2i-w3-0Sa" id="Bon-nO-w98"/>
+                        <outlet property="userImg" destination="VtC-2a-HsP" id="oWw-w1-UJ8"/>
                         <segue destination="s0W-cF-iHd" kind="show" identifier="toLogin" id="AAy-XE-WE4"/>
                     </connections>
                 </viewController>
@@ -280,11 +281,19 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginPressed:" destination="s0W-cF-iHd" eventType="touchUpInside" id="vOy-f7-2pW"/>
+                                </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="cQM-Tk-4Q1">
+                                <rect key="frame" x="169" y="215" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="geN-lF-SiK" firstAttribute="top" secondItem="2wI-gU-eFl" secondAttribute="top" constant="60" id="1Ab-gj-3TJ"/>
+                            <constraint firstItem="cQM-Tk-4Q1" firstAttribute="centerX" secondItem="RGA-n6-cl8" secondAttribute="centerX" id="P2a-TA-sCE"/>
                             <constraint firstItem="TkD-j5-mZ6" firstAttribute="top" secondItem="cW2-JZ-7xx" secondAttribute="bottom" id="Qvq-Xm-d0G"/>
                             <constraint firstItem="cW2-JZ-7xx" firstAttribute="top" secondItem="A2P-Nk-Tze" secondAttribute="bottom" constant="40" id="UCa-jf-wgP"/>
                             <constraint firstItem="TkD-j5-mZ6" firstAttribute="centerX" secondItem="RGA-n6-cl8" secondAttribute="centerX" id="ZLd-xT-FTe"/>
@@ -294,10 +303,14 @@
                             <constraint firstItem="geN-lF-SiK" firstAttribute="centerX" secondItem="RGA-n6-cl8" secondAttribute="centerX" id="mmv-kz-Y0g"/>
                             <constraint firstItem="cW2-JZ-7xx" firstAttribute="centerX" secondItem="RGA-n6-cl8" secondAttribute="centerX" id="sQ0-fx-Jgc"/>
                             <constraint firstItem="ffg-BF-ZQf" firstAttribute="top" secondItem="2wI-gU-eFl" secondAttribute="top" constant="16" id="swR-vA-olq"/>
+                            <constraint firstItem="cQM-Tk-4Q1" firstAttribute="centerY" secondItem="RGA-n6-cl8" secondAttribute="centerY" constant="-100" id="vba-sK-94x"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2wI-gU-eFl"/>
                     </view>
                     <connections>
+                        <outlet property="passwordTxt" destination="xei-pg-p1j" id="hkM-xI-ZlD"/>
+                        <outlet property="spinner" destination="cQM-Tk-4Q1" id="M9H-bV-O1K"/>
+                        <outlet property="usernameTxt" destination="xei-pg-p1j" id="Plr-kf-0ls"/>
                         <segue destination="Km1-LC-oss" kind="show" identifier="toCreateAccount" id="pGi-yb-NNr"/>
                     </connections>
                 </viewController>
@@ -314,7 +327,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UB8-bz-9xm">
-                                <rect key="frame" x="331" y="36" width="28" height="28"/>
+                                <rect key="frame" x="343" y="36" width="16" height="22"/>
                                 <state key="normal" image="closeButton"/>
                                 <connections>
                                     <action selector="closePressed:" destination="Km1-LC-oss" eventType="touchUpInside" id="fre-7j-qgh"/>
